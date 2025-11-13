@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header .profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 15px;
+}
+
+nav {
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #1e3c72;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #2a5298;
+}
+
+.section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  padding: 40px;
+}
+
+.section h2 {
+  color: #1e3c72;
+  border-bottom: 2px solid #1e3c72;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.section ul {
+  line-height: 1.8;
+}
+
+.project {
+  background: #f1f3f5;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.project a {
+  color: #2a5298;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  background: #1e3c72;
+  color: #fff;
+  padding: 15px 0;
+  margin-top: 50px;
+}
